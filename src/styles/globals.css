@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scrollText {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-scroll {
+  animation: scrollText 5000s linear infinite !important;
+}
+
+html {
+    scroll-behavior: smooth;   
+    background-color: #F1EFEE;
+  }
