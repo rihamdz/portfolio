@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import logo from 'public/images/riham.png';
 import CvButton from '@/components/CvButton';
 
 const HomeSection = () => {
@@ -46,7 +47,7 @@ const HomeSection = () => {
               {/* Main Image */}
               <Image
                 className="absolute left-[65px] top-0 w-[267.43px] h-[392px]"
-                src="/images/riham.png"
+                src={logo}
                 alt="Riham Kaddour Bakir"
                 width={267}
                 height={392}
